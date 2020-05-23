@@ -1,0 +1,3 @@
+    Selection.InsertBreak Type:=wdPageBreak // 改ページ
+    Selection.InsertFile FileName:="sample1.docx", Range:="", _ // ファイル結合
+        ConfirmConversions:=False, Link:=False, Attachment:=False

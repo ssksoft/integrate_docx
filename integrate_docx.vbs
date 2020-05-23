@@ -12,4 +12,4 @@ Set src2_obj = word_obj.Documents.Open(docxs(1))
 ' word_obj.Quit
 Set integrated_docx_obj = word_obj.Documents.Add
 Set tmp = word_obj.Selection
-integrated_docx_obj.SaveAs2 "C:\Users\sasat\Desktop\integrate_docx\tmp.docx"
+integrated_docx_obj.SaveAs2 "C:\Users\sasat\Desktop\integrate_docx\integrate.docx"
